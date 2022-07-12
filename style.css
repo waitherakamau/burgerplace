@@ -1,0 +1,230 @@
+*{
+    font-family: sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    /* background-image: linear-gradient(rgba(0,0,0,0,),rgba(0,0,0,0,)); */
+    /* background-image: url(nicebg.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+    height: 130vh;
+    background: yellow;
+
+    
+
+
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    width: 1005;
+}
+.logo img{
+    height: 37vh;
+
+}
+.nav ul{
+    display: flex;
+
+}
+.nav ul li{
+    list-style: none;
+
+}
+.nav ul li a{
+    text-decoration: none; 
+    padding: 16px 24px; 
+    color:green; 
+    justify-content: space-between; 
+    justify-items: center; 
+
+}
+.user{
+    cursor: pointer;
+    color: green;
+    margin-top: 40px;
+    margin-right: 40px;
+
+}
+ .user a{
+    text-decoration: none; 
+    color: white;
+     background-color: yellowgreen;
+    border-radius: 40px;
+    padding: 20px; 
+}
+
+.user a:hover{
+    background-color: black;
+    color: yellowgreen;
+    font-weight: bolder;
+
+
+}
+.user{
+    font-size: 20px;
+    margin-right: 10px;
+    padding: opx 14px;
+
+ } 
+ .foodpage{
+    position: absolute;
+    color:black;
+    margin-top: 10px;
+    margin-left: 40px; 
+
+}  
+.inside-foodpage{
+    line-height: 2;
+    margin-top: 60px;
+} 
+
+.inside-foodpage h1{
+    font-size: 40px;
+
+}  
+.inside-foodpagep{
+    font-size: 17px;
+
+} 
+span{
+    color: yellowgreen; 
+    font-weight: bolder;
+
+} 
+.line1{
+    height: 2px;
+    color: yellow; 
+     width: 12%;
+    margin-left: 0px;
+    margin-top: 0px;
+    position: absolute;
+ 
+} 
+.poster{
+    margin-top: 10px;
+    margin-right: 130px;
+} 
+.poster img{
+    height: 520px;
+    float: right;
+    border-radius: 10px;
+    /* background: rgb(70, 67, 67);  */
+
+} 
+btn1{
+    margin-top: 30px;
+    padding: 1px; 
+     width: 100%; 
+    border-radius: 45px;
+
+}
+.login{
+    margin-top: 30px;
+    padding: 1px; 
+    width: 100%;
+    border-radius: -45px;
+    
+
+}
+
+
+
+
+
+
+
+/* .btn1 i{
+    text-decoration: none;
+    color:white;
+    padding: 2px 30px;
+    background: green;
+    border-radius: 30px;
+
+} */
+.btn1:hover{
+    background: black;
+        color: green;
+
+}
+.latest-movies{
+    position: absolute;
+    width: 100%;
+    /* height: 100%; */
+    background-color: black;
+    margin-top: 500px;
+    /* padding: 0 20px; */
+
+}
+.latest-movies h1{ 
+    font-size: 20px;
+    color: yellowgreen;
+
+
+}
+.latest-container{
+    /* padding: 10px 0px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+
+}
+.latest-inside{
+    padding: 5px;
+}
+.latest-inside img{ 
+    /* height: 12px;  */
+    /* padding: 34px; */
+    cursor: pointer;
+    transform: all 500ms ease-in-out;
+    justify-content: center;
+
+
+
+}
+.latest-inside img:hover{
+    transform: scale(1,2);
+
+}
+.heading1{
+    color: white;
+    line-height: 1.5;
+
+}
+.heading1 h4{
+    font-size: 10px;
+    /* line-height: 1.5; */
+    align-items: center;
+    /* margin: 8PX; */
+
+}
+.heading1 h5{
+    font-size: 12px;
+
+}
+.btn2{
+    margin-top: 30px;
+    margin-left: 150px;
+
+}
+.btn2 a{
+    text-decoration: none;
+    font-size: 13px;
+    background: yellowgreen;
+    /* padding: 7px 7px; */
+    color: white;
+    border-radius: 20%;
+
+
+}
+.smoothies{
+    margin-top: 1000px;
+    
+}
